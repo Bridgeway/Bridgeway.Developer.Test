@@ -20,11 +20,11 @@ This is a simple console app. The necessary infrastructure has already been writ
 
 Take note of *Startup.cs*. New services can be added to the application here. This is where you will plug your work into the app.
 
+When the app starts a service runs called *HourlyActionService*. In this service a timer will call a method once an hour. It is up to you if you want to use this service to help acheive the below.
+
 ---
 
 **The Project**
-
-When the app starts a service runs called *HourlyActionService*. In this service a timer will call an action once an hour. It is up to you if you want to use this service to help acheive the below.
 
 We want to have the ability to add classes to this project that will be called and run on specified days, at specified hours. For instance, we might want something to happen on Sundays and Wednesdays at 1400. For the purposes of this test, we will call this a *ScheduledAction*.
 
@@ -35,4 +35,3 @@ Once up and running we should be able to add or remove a *ScheduledAction* and s
 An example *ScheduledAction* might involve sending emails or updating a database. 
 
 **Important:** As such, it should be possible to inject dependencies into the class or code that carries out the scheduled action, without having to 'new up'.
-
