@@ -28,7 +28,7 @@ When the app starts a service runs called *HourlyActionService*. In this service
 
 We want to have the ability to add classes to this project that will be called and run on specified days, at specified hours. For instance, we might want something to happen on Sundays and Wednesdays at 1400. For the purposes of this test, we will call this a *ScheduledAction*.
 
-The *ScheduledAction* doesn't have to run precisely at 1400, but we need to guarantee it runs at some point between 1400 and 1500.
+The *ScheduledAction* in the above example doesn't have to run precisely at 1400, but we need to guarantee it runs at some point between 1400 and 1500.
 
 Please write the code that will enable us to do this within this project without using any external libraries. It should follow the object oriented rule of being open for extention but closed to change. 
 
