@@ -1,5 +1,8 @@
 # Bridgeway.Developer.Test
 
+**Important Note**
+Please do not submit a pull request or push your branch to this repository, as this will make your work available to other candidates.
+
 **Getting Started**
 
 Make sure you have version 2.2 or later of .NET Core installed: [LINK](https://dotnet.microsoft.com/download)
