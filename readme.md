@@ -4,7 +4,7 @@
 
 **Getting Started**
 
-Make sure you have version 2.2 or later of .NET Core installed: [LINK](https://dotnet.microsoft.com/download)
+Make sure you have version 2.2 of .NET Core installed: [LINK](https://dotnet.microsoft.com/download)
 
 Clone this repository.
 
